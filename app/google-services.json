@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "167908550158",
+    "firebase_url": "https://storiesbook-e2235-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "storiesbook-e2235",
+    "storage_bucket": "storiesbook-e2235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167908550158:android:2f70048fe097ddb0fd7e5f",
+        "android_client_info": {
+          "package_name": "com.rkm.shortsstories"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuxsHgzA3luCPRAF37OeyuV1Dae2k7Oho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

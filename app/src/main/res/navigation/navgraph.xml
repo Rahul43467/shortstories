@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/splashscreen">
+
+    <fragment
+        android:id="@+id/splashscreen"
+        android:name="com.rkm.shortsstories.splashscreen"
+        android:label="fragment_splashscreen"
+        tools:layout="@layout/fragment_splashscreen" >
+        <action
+            android:id="@+id/action_splashscreen_to_fragmentone"
+            app:destination="@id/fragmentone" />
+        <action
+            android:id="@+id/action_splashscreen_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentone"
+        android:name="com.rkm.shortsstories.Fragmentone"
+        android:label="fragment_fragmentone"
+        tools:layout="@layout/fragment_fragmentone" >
+        <action
+            android:id="@+id/action_fragmentone_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmenttwo"
+        android:name="com.rkm.shortsstories.Fragmenttwo"
+        android:label="fragment_fragmenttwo"
+        tools:layout="@layout/fragment_fragmenttwo" />
+    <fragment
+        android:id="@+id/fragmentthree"
+        android:name="com.rkm.shortsstories.Fragmentthree"
+        android:label="fragment_fragmentthree"
+        tools:layout="@layout/fragment_fragmentthree" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.rkm.shortsstories.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bookcatogery"
+            app:destination="@id/bookcatogery" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentfour"
+        android:name="com.rkm.shortsstories.Fragmentfour"
+        android:label="fragment_fragmentfour"
+        tools:layout="@layout/fragment_fragmentfour" />
+    <activity
+        android:id="@+id/bookcatogery"
+        android:name="com.rkm.shortsstories.bookcatogery"
+        android:label="activity_bookcatogery"
+        tools:layout="@layout/activity_bookcatogery" />
+</navigation>
